@@ -6946,6 +6946,7 @@ class Mascot:
 
     def _yt_forget(self):
         """재생기가 사라졌다고 표시만 한다 (프로세스 정리는 _yt_stop)."""
+        self._pl_on = False          # 재생기가 죽었으면 플레이리스트도 끝
         self._yt_proc = None
         self._yt = {}
         self._yt_want = False
