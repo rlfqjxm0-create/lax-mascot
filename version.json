@@ -1,7 +1,7 @@
 {
- "version": 1786970241,
+ "version": 1786971307,
  "files": {
-  "mascot.py": "f9abb5b8a4adf390c835d57c7e8fb4aa7bac9fcf39345c9697f6fd0d260a49fd",
+  "mascot.py": "cf493fea3c556b7f92da9d9567a9f3ffbfd1d24e299084fefaf0d8bee0bd32cb",
   "parts_lax/arm_key.png": "53582293935f5f8359595265c83039ed66af2cb993805ab4a280d20f0970a641",
   "parts_lax/arm_pen.png": "8663d8eb3e14af4e968001883d5860133f93cf3e84e3060e1f1f77add365e502",
   "parts_lax/arm_right.png": "716e902d39bb6a4755774526e1d4f1b030b5209f2dd73c569aaef173819d6c3e",
@@ -347,11 +347,6 @@
   "stickers/__init__.py": "d77e3dc92cb353dced8d192c140643c6458bc3901facdf2e0a0d0830fa4244b7",
   "youtube_player.py": "b24fce8125c2234285ae5f8dfbb612eb879c8897476d7fbfcc04856057e42e76"
  },
- "notes": [
-  "홈 왼쪽 아래 '모두 보기' 단추 — 전원이 캡슐로 한 화면에! (심플모드)",
-  "캡슐엔 레벨·칭호·한마디 말풍선·노래·게이지가 함께 나와요",
-  "캡슐 배경은 테마색이 그 사람의 방 이미지로 녹아들어요",
-  "심플모드에서도 숨쉬기·음표·반짝임이 살아 있어요",
-  "준사의 홈 모습이 입고 있는 메이드복으로 보여요"
- ]
+ "notes": [],
+ "silent": true
 }
