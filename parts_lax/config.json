@@ -1,6 +1,6 @@
 {
  "name": "락스",
- "scale": 0.34,
+ "scale": 0.3,
  "screen_quad": [
   [
    330,
@@ -290,5 +290,6 @@
   0.06,
   0.88
  ],
- "back_hide_on_prop": true
+ "back_hide_on_prop": true,
+ "shadow_pen": false
 }
