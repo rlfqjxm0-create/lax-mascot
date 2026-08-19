@@ -1,14 +1,14 @@
 {
- "version": 1787171500,
+ "version": 1787172459,
  "files": {
-  "mascot.py": "248ca93288f5ca1bd90eaaef919eed951f88fde618921f9aae399491d781ee1d",
+  "mascot.py": "94e1037ddfa9b3f9c701ecb081481074e961e5436bb354d3ecba1d29fb9793fe",
   "parts_lax/arm_key.png": "53582293935f5f8359595265c83039ed66af2cb993805ab4a280d20f0970a641",
   "parts_lax/arm_pen.png": "8663d8eb3e14af4e968001883d5860133f93cf3e84e3060e1f1f77add365e502",
   "parts_lax/arm_right.png": "716e902d39bb6a4755774526e1d4f1b030b5209f2dd73c569aaef173819d6c3e",
   "parts_lax/arm_right_typing.png": "53582293935f5f8359595265c83039ed66af2cb993805ab4a280d20f0970a641",
   "parts_lax/back.png": "c6a1c1c68f6d22de1b0f2e511b066d4241207bb9bfdc65dd8866567f6c99bbb9",
   "parts_lax/body_open.png": "d7d596f04c92ed112f54cd5a316605853ebb00ab3b1752d0504de79044f681a6",
-  "parts_lax/config.json": "053a0ca7f333c254c4bbe8d3edd200d68a48b1c828cdad2152ae5d2cdf36c239",
+  "parts_lax/config.json": "31c96ff4bf2693c6c394e019997babaff9dec68bbb466c97bec787c1f4a42c0d",
   "parts_lax/crown.png": "b1b7426a0222ac294a782cb06db6c9c4aba4e660591dd1761dc9e4da050175fc",
   "parts_lax/desk.png": "02bd09c6c15368c01eb96b6b721dffd824f47ca489aabee3a8a78ccb51e8a566",
   "parts_lax/eyes_closed.png": "a365d1bda7875c48fee076bab315cc596d059746def76fb7a1165e7d6641f3e9",
