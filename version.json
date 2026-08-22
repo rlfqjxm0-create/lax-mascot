@@ -1,14 +1,14 @@
 {
- "version": 1787397736,
+ "version": 1787399502,
  "files": {
-  "mascot.py": "5a6d164754a52bca37572f7c31cbb5e668fe6224ea6641494cbf0eac7733ef1b",
+  "mascot.py": "0464d63edf9f4e51430ddf5e15fa40c86c47b07d00c63320445cf54575fbb2af",
   "parts_lax/arm_key.png": "53582293935f5f8359595265c83039ed66af2cb993805ab4a280d20f0970a641",
   "parts_lax/arm_pen.png": "8663d8eb3e14af4e968001883d5860133f93cf3e84e3060e1f1f77add365e502",
   "parts_lax/arm_right.png": "716e902d39bb6a4755774526e1d4f1b030b5209f2dd73c569aaef173819d6c3e",
   "parts_lax/arm_right_typing.png": "53582293935f5f8359595265c83039ed66af2cb993805ab4a280d20f0970a641",
   "parts_lax/back.png": "c6a1c1c68f6d22de1b0f2e511b066d4241207bb9bfdc65dd8866567f6c99bbb9",
   "parts_lax/body_open.png": "d7d596f04c92ed112f54cd5a316605853ebb00ab3b1752d0504de79044f681a6",
-  "parts_lax/config.json": "5bfe10fd6b62b1cedc8afa4881e90e44f3d5471dd208c0b82a61c8c9ca4685ac",
+  "parts_lax/config.json": "5c6ae82486fc1add304ef88216e7c84d98471caa2d9423743bc3783a3a60e7d5",
   "parts_lax/crown.png": "b1b7426a0222ac294a782cb06db6c9c4aba4e660591dd1761dc9e4da050175fc",
   "parts_lax/desk.png": "02bd09c6c15368c01eb96b6b721dffd824f47ca489aabee3a8a78ccb51e8a566",
   "parts_lax/eyes_closed.png": "a365d1bda7875c48fee076bab315cc596d059746def76fb7a1165e7d6641f3e9",
@@ -478,8 +478,9 @@
   "youtube_player.py": "8fd216056f4f61075a8646a791389b05ad0082c40864d84b16773c2302c74f2d"
  },
  "notes": [
-  "**사가님이 소품 7종을 추가해 줬어요!** 미쿠 · 생선 · 계란 · 블록슈 불꽃 · 츠나 불꽃 · 당근토끼 · 방울고양이. 다들 사가님께 감사의 채찍질을 해주세요.",
-  "**미쿠와 불꽃은 여러 조각이 따로 움직입니다.** 미쿠는 양갈래가 흔들리고 파를 든 손이 신나게 움직여요. 불꽃은 밑동을 붙박이로 두고, 겹쳐 놓은 안쪽 불꽃마다 박자를 어긋내 타오르듯 넘실거립니다",
-  "소품은 켤 때마다 하나가 무작위로 나옵니다. 켜 둔 채로 바꾸고 싶으면 **우클릭 → 소품 새로고침**을 누르세요"
+  "**캐릭터 움직임이 부드러워졌습니다.** 커서를 캐릭터 곁에 두거나 말풍선·연출이 떠 있는 동안에는 초당 60번 그려요 (전에는 30번). 숨쉬기·눈동자·팔이 눈에 띄게 매끄럽습니다",
+  "**가만히 바라볼 때 끊기던 것을 고쳤습니다.** 키보드·마우스를 5초만 안 건드려도 초당 15번으로 떨어졌는데, 구경하는 순간이 딱 그 상태였어요. 이제 30초는 지나야 낮춥니다",
+  "**양갈래·날개 흔들림이 두 배 촘촘해졌습니다** (사가·기뽀·패왕·햄북이·락스·제리·성실이). 락스는 초당 5장이 10장으로 늘었어요",
+  "**늘 빠르게 그리지는 않습니다.** 보고 있지 않을 때는 예전처럼 그려서 컴퓨터에 부담을 안 줘요. 늘어나는 메모리는 캐릭터당 1MB 안쪽입니다"
  ]
 }
