@@ -1,7 +1,7 @@
 {
- "version": 1787615278,
+ "version": 1787691837,
  "files": {
-  "mascot.py": "ababc499835b013ae317989896a3e2bcdd66a2669a694f7177bbda851e066e4d",
+  "mascot.py": "fbbd51154d02b797fd8c4927f73b974fc08c82657ef60526e60ec725b2f1ec99",
   "parts_lax/arm_key.png": "53582293935f5f8359595265c83039ed66af2cb993805ab4a280d20f0970a641",
   "parts_lax/arm_pen.png": "8663d8eb3e14af4e968001883d5860133f93cf3e84e3060e1f1f77add365e502",
   "parts_lax/arm_right.png": "716e902d39bb6a4755774526e1d4f1b030b5209f2dd73c569aaef173819d6c3e",
@@ -21,7 +21,7 @@
   "parts_lax/hand.png": "14fcba700a6266576b2d5a5e8d6aa308f53ff0d00008e93ee51526d08eec067f",
   "parts_lax/hat.png": "4bd1da80b760cff3694c7b21350e8dce6a177026846dcd737d796ad7560f277f",
   "parts_lax/head.png": "d6a05703f4d38c29e0730a511606878db6e71ab2926957124037bdcd6a19ae91",
-  "parts_lax/layout.json": "106109b3a9e0358f5618b269982f39090938356a150c388c3951e638d731c363",
+  "parts_lax/layout.json": "2fb5d35a373ece831af38ff70374539e22e92c8464e221f386dc521c443845e6",
   "parts_lax/prop1.png": "e56ffe530b860668bbc34ee0917139f8a0e93af1abc08fd51608caf146f29346",
   "parts_lax/prop10_back.png": "9c151b667a305e0b40917014640ebb0b599d65f77fbb44f467f973eb245a4198",
   "parts_lax/prop11.png": "5018d089066acf04ff2118046d99d1112eacb9819345988f562674b49035022f",
@@ -43,8 +43,14 @@
   "parts_lax/prop21.png": "66a57bddeeba14b6b5a426b4e2baf9c9d511cbb1091df36fee374157c362adaa",
   "parts_lax/prop21_bit2.png": "d58d2e52c560028a8d2fbd72607d300e4497ab90c74b6f151f75c4ba9e39f840",
   "parts_lax/prop21_bit3.png": "a57385959d741788e857aa42d6234573f4b9abba5b57840da59cc4e0ec120159",
-  "parts_lax/prop22.png": "45c84486a118917f628fcaad92bc424cc9994f6ba56699b3157401598c54204e",
-  "parts_lax/prop23.png": "88b5a9411b3a08154cdba495a03e06d4dcaa55cdaa75aba7bd5a78989ea6e8ec",
+  "parts_lax/prop22.png": "8816bf8b73f06d41fd9ad7e249a80fe2f9316dc319537bbf918383110f97ce77",
+  "parts_lax/prop23.png": "f4f102be74dfd84dd5e792bbf100e24e0e14a8d9c5de2a9372682eab5067d9db",
+  "parts_lax/prop24.png": "9051a551325dfc2493dbaeb51589d85f2999163c22641e8b2b45e774518b04e0",
+  "parts_lax/prop24_bit2.png": "194a073d69bd58df49809fbfd6a5f0766e454e28e724f3db46c1d00e6515cc2d",
+  "parts_lax/prop25.png": "4791fcde5d6b2cf2c12bb0bd0a2d5c83c8bef55c2707de8fee347f8a208e8249",
+  "parts_lax/prop25_bit2.png": "1fd8143c5f654fddbb06abc0dbb036321269f4d5edd493d9c99de96420207450",
+  "parts_lax/prop25_bit3.png": "5f905a3f6216426291bf3a4033e9949f9c2033af91fb52fa6c7126585606ffc8",
+  "parts_lax/prop25_bit4.png": "be654af224334b1433bae4dad75ca538db54a8b88859a64f154b58d06d7ef65a",
   "parts_lax/prop3.png": "9c5ede7309c8dc2858053105491b9e436f5b438b60ac6c78d96800af80c6230d",
   "parts_lax/prop4.png": "bb614a969e0c97769e1fda7008b57c1670268a4c0d528611b8fb409a3de65aaf",
   "parts_lax/prop5.png": "1d22c58f1872f4c59ae5850951b30a66c0f2427ad82997fb8a9566dc1ba636b3",
@@ -483,6 +489,7 @@
   "stickers/__init__.py": "d77e3dc92cb353dced8d192c140643c6458bc3901facdf2e0a0d0830fa4244b7",
   "youtube_player.py": "958da4bd526d867ec8250db02da4729ceb168664c04419091fe6ebf040122f80"
  },
- "notes": [],
- "silent": true
+ "notes": [
+  "새 소품 4종이 왔어요 — 잠자는 고양이(가끔 눈을 뜨고 빤히 봐요), 김이 폴폴 나는 왕만두, 아기 쪽쪽이, 토끼 머리띠. '소품 새로고침'을 누르다 보면 만날 수 있어요."
+ ]
 }
