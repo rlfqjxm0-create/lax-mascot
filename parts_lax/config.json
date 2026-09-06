@@ -1,779 +1,781 @@
 {
-  "name": "락스",
-  "scale": 0.3,
-  "screen_quad": [
-    [
-      330,
-      1039
-    ],
-    [
-      554,
-      1034
-    ],
-    [
-      542,
-      1131
-    ],
-    [
-      298,
-      1130
-    ]
+ "name": "락스",
+ "scale": 0.3,
+ "screen_quad": [
+  [
+   330,
+   1039
   ],
-  "blink": null,
-  "trail_color": "#3a3a3a",
-  "hard_alpha": true,
-  "smooth_body": true,
-  "timer": {
-    "enabled": true,
-    "idle_sec": 15
-  },
-  "fun": true,
-  "nose": [
-    430,
-    590
+  [
+   554,
+   1034
   ],
-  "arms_over_head": true,
-  "pen_grain": false,
-  "todo": true,
-  "talk": [
-    "…왔냐옹. 시작하자.",
-    "검은 털은 밤샘에 유리하다옹.",
-    "오늘 선은 발톱처럼 날카롭게.",
-    "그루밍하듯 꼼꼼하게 다듬는다옹.",
-    "어둠 속에서도 마감은 보인다옹.",
-    "살금살금, 마감까지 조용히 간다옹.",
-    "궤도에 올랐다옹. 그대로 가자.",
-    "낮잠은 이따가. 지금은 집중이다옹.",
-    "까만 몸엔 지우개 가루도 안 보인다옹.",
-    "골골… 작업 소리가 듣기 좋다옹.",
-    "펜은 깃털처럼 가볍게 쥔다옹.",
-    "네 그림자는 내가 지켜 준다옹.",
-    "야행성의 시간이 왔다옹.",
-    "발바닥 도장 찍듯 착착 진행한다옹.",
-    "높은 곳에서 보면 구도가 보인다옹.",
-    "털 고르듯 레이어도 골라 두라옹.",
-    "쥐 잡듯 오타… 아니 잡선을 잡자옹.",
-    "박스보다 마감 안이 아늑하다옹.",
-    "수염이 떨린다… 좋은 그림 예감이다옹.",
-    "어둠도 색이라는 걸 잊지 말라옹.",
-    "오늘도 아홉 목숨 중 하나를 그림에 쓴다옹.",
-    "캔버스 위는 내 영역이다옹.",
-    "조용한 밤, 펜 소리만 사각사각.",
-    "다 그리면 무릎을 빌려 주겠다옹.",
-    "끝까지 우아하게 마무리한다옹."
+  [
+   542,
+   1131
   ],
-  "gestures": true,
-  "stretch_talk": [
-    "같이 좀 펴요.",
-    "어깨 한 번 돌려요.",
-    "허리도요."
+  [
+   298,
+   1130
+  ]
+ ],
+ "blink": null,
+ "trail_color": "#3a3a3a",
+ "hard_alpha": true,
+ "smooth_body": true,
+ "timer": {
+  "enabled": true,
+  "idle_sec": 15
+ },
+ "fun": true,
+ "nose": [
+  430,
+  590
+ ],
+ "arms_over_head": true,
+ "pen_grain": false,
+ "todo": true,
+ "talk": [
+  "…왔냐옹. 시작하자.",
+  "검은 털은 밤샘에 유리하다옹.",
+  "오늘 선은 발톱처럼 날카롭게.",
+  "그루밍하듯 꼼꼼하게 다듬는다옹.",
+  "어둠 속에서도 마감은 보인다옹.",
+  "살금살금, 마감까지 조용히 간다옹.",
+  "궤도에 올랐다옹. 그대로 가자.",
+  "낮잠은 이따가. 지금은 집중이다옹.",
+  "까만 몸엔 지우개 가루도 안 보인다옹.",
+  "골골… 작업 소리가 듣기 좋다옹.",
+  "펜은 깃털처럼 가볍게 쥔다옹.",
+  "네 그림자는 내가 지켜 준다옹.",
+  "야행성의 시간이 왔다옹.",
+  "발바닥 도장 찍듯 착착 진행한다옹.",
+  "높은 곳에서 보면 구도가 보인다옹.",
+  "털 고르듯 레이어도 골라 두라옹.",
+  "쥐 잡듯 오타… 아니 잡선을 잡자옹.",
+  "박스보다 마감 안이 아늑하다옹.",
+  "수염이 떨린다… 좋은 그림 예감이다옹.",
+  "어둠도 색이라는 걸 잊지 말라옹.",
+  "오늘도 아홉 목숨 중 하나를 그림에 쓴다옹.",
+  "캔버스 위는 내 영역이다옹.",
+  "조용한 밤, 펜 소리만 사각사각.",
+  "다 그리면 무릎을 빌려 주겠다옹.",
+  "끝까지 우아하게 마무리한다옹."
+ ],
+ "gestures": true,
+ "stretch_talk": [
+  "같이 좀 펴요.",
+  "어깨 한 번 돌려요.",
+  "허리도요."
+ ],
+ "stretch_done_talk": [
+  "좀 낫죠?",
+  "됐어요.",
+  "잘했어요."
+ ],
+ "stretch_hint_suffix": " — 눌러줘",
+ "remember_pos": true,
+ "history": true,
+ "deadline_on": true,
+ "goal_cheer": true,
+ "soft_overlay": true,
+ "pen_monitor_pick": false,
+ "feedback_url_enc": "DRoVXR5bXEwLHV4FChcATAIMBkoPEURCFhYBBxtCDRZKVVdSUV5VWFUaWFJDU11CHF9dVEsaFzNGUCYGeT4LPjwoOn8KNlMmOlAHWSwXIHobJjcgMABrCyAPVyAmKBoCBxhHCykrUFokfCICCTMyMywcVAQDYAsNBw==",
+ "gestures_plus": true,
+ "stickers": true,
+ "youtube": true,
+ "card": {
+  "fill": "#48484c",
+  "border": "#b9b9bd",
+  "track": "#ececee",
+  "text": "#303034",
+  "sub": "#8b8b90",
+  "deco": "cat",
+  "panel": "#fbfbfc",
+  "soft": "#f1f1f3",
+  "line": "#e3e3e6"
+ },
+ "titles": [
+  [
+   1,
+   "첫 획"
   ],
-  "stretch_done_talk": [
-    "좀 낫죠?",
-    "됐어요.",
-    "잘했어요."
+  [
+   3,
+   "낙서 시작"
   ],
-  "stretch_hint_suffix": " — 눌러줘",
-  "remember_pos": true,
-  "history": true,
-  "deadline_on": true,
-  "goal_cheer": true,
-  "soft_overlay": true,
-  "pen_monitor_pick": false,
-  "feedback_url_enc": "DRoVXR5bXEwLHV4FChcATAIMBkoPEURCFhYBBxtCDRZKVVdSUV5VWFUaWFJDU11CHF9dVEsaFzNGUCYGeT4LPjwoOn8KNlMmOlAHWSwXIHobJjcgMABrCyAPVyAmKBoCBxhHCykrUFokfCICCTMyMywcVAQDYAsNBw==",
-  "gestures_plus": true,
-  "stickers": true,
-  "youtube": true,
-  "card": {
-    "fill": "#48484c",
-    "border": "#b9b9bd",
-    "track": "#ececee",
-    "text": "#303034",
-    "sub": "#8b8b90",
-    "deco": "cat",
-    "panel": "#fbfbfc",
-    "soft": "#f1f1f3",
-    "line": "#e3e3e6"
-  },
-  "titles": [
-    [
-      1,
-      "첫 획"
-    ],
-    [
-      3,
-      "낙서 시작"
-    ],
-    [
-      5,
-      "선 긋는 중"
-    ],
-    [
-      8,
-      "지우개 단골"
-    ],
-    [
-      12,
-      "밑그림 연습"
-    ],
-    [
-      16,
-      "동그라미 수련"
-    ],
-    [
-      20,
-      "스케치 견습"
-    ],
-    [
-      25,
-      "선의 감각"
-    ],
-    [
-      30,
-      "펜 잡은 손"
-    ],
-    [
-      36,
-      "채색 입문"
-    ],
-    [
-      42,
-      "팔레트 정리"
-    ],
-    [
-      50,
-      "그리는 사람"
-    ],
-    [
-      60,
-      "붓 한 자루"
-    ],
-    [
-      75,
-      "색 고르는 눈"
-    ],
-    [
-      90,
-      "그림 동료"
-    ],
-    [
-      100,
-      "밤샘 입문"
-    ],
-    [
-      125,
-      "커피 한 잔"
-    ],
-    [
-      150,
-      "손목 조심"
-    ],
-    [
-      175,
-      "마감 생존자"
-    ],
-    [
-      200,
-      "손이 기억함"
-    ],
-    [
-      250,
-      "그림 중독"
-    ],
-    [
-      300,
-      "붓끝 감각"
-    ],
-    [
-      350,
-      "레이어 정글"
-    ],
-    [
-      400,
-      "한 획의 무게"
-    ],
-    [
-      500,
-      "타블렛 요정"
-    ],
-    [
-      600,
-      "그림쟁이"
-    ],
-    [
-      700,
-      "무한 캔버스"
-    ],
-    [
-      800,
-      "선의 마술사"
-    ],
-    [
-      900,
-      "밤샘 장인"
-    ],
-    [
-      1000,
-      "붓의 주인"
-    ],
-    [
-      1250,
-      "그림 도사"
-    ],
-    [
-      1500,
-      "전설의 손"
-    ],
-    [
-      2000,
-      "살아남은 화가"
-    ],
-    [
-      3000,
-      "붓과 한 몸"
-    ],
-    [
-      5000,
-      "멸종 위기 아님"
-    ]
+  [
+   5,
+   "선 긋는 중"
   ],
-  "level": true,
-  "update_dot": true,
-  "typing_arm": true,
-  "card_top": 26,
-  "slime": {
-    "kinds": {
-      "말랑이": {
-        "tint": 0.45,
-        "size": 1.0,
-        "thick": 0.0,
-        "stiff": 0.0,
-        "reach": 2.8,
-        "vol": 0.32
-      },
-      "버터바": {
-        "shape": "bar",
-        "label": "butter",
-        "bar_w": 1.5,
-        "bar_h": 1.25,
-        "bar_edge": 6.0,
-        "tint": 0.52,
-        "shade": 0.0,
-        "size": 1.0,
-        "thick": 1.0,
-        "stiff": 0.6,
-        "reach": 2.0,
-        "vol": 1.0,
-        "pitch": 0.82
-      },
-      "치즈": {
-        "shape": "bar",
-        "label": "cheese",
-        "holes": 7,
-        "bar_w": 0.95,
-        "bar_h": 1.45,
-        "bar_edge": 4.0,
-        "color": "#f5e09a",
-        "size": 0.95,
-        "thick": 0.55,
-        "stiff": 0.3,
-        "vol": 1.0
-      },
-      "망고스틴": {
-        "label": "mangosteen",
-        "color": "#4a1a3f",
-        "size": 0.92,
-        "thick": 1.0,
-        "stiff": 0.55,
-        "reach": 1.9,
-        "vol": 1.15,
-        "pitch": 0.72
-      },
-      "푸딩": {
-        "label": "pudding",
-        "shape": "cup",
-        "cup_top": 0.66,
-        "bar_w": 1.06,
-        "bar_h": 1.3,
-        "bar_edge": 4.2,
-        "color": "#f6d79b",
-        "size": 0.98,
-        "thick": 0.25,
-        "stiff": 0.4,
-        "reach": 2.4,
-        "vol": 1.0,
-        "pitch": 0.95
-      }
-    }
-  },
-  "reset_menu": false,
-  "char_lift": 38,
-  "back_motion": "sway",
-  "back_amp": 9,
-  "back_period": 2.4,
-  "back_jitter": 0.2,
-  "back_pivot": [
-    0.06,
-    0.88
+  [
+   8,
+   "지우개 단골"
   ],
-  "back_hide_on_prop": false,
-  "shadow_pen": false,
-  "wgame": true,
-  "ctile": true,
-  "game_talk": [
-    "끝났다옹. 잘했다옹.",
-    "발톱처럼 날카로웠다옹.",
-    "나쁘지 않다옹.",
-    "어둠 속에서도 잘 보이더라옹.",
-    "한 판 더 해도 된다옹.",
-    "제법이다옹.",
-    "그루밍하듯 깔끔했다옹."
+  [
+   12,
+   "밑그림 연습"
   ],
-  "game_talk_win": [
-    "전부 지웠다옹! 훌륭하다옹.",
-    "한 장도 안 남았다옹.",
-    "이건 칭찬해 주겠다옹."
+  [
+   16,
+   "동그라미 수련"
   ],
-  "g2_talk": {
-    "start": [
-      "…왔냐옹. 한 판 하자옹.",
-      "발톱 세우고 시작한다옹.",
-      "야행성의 시간이다옹.",
-      "판 위는 내 영역이다옹."
-    ],
-    "move_none": [
-      "그쪽은 벽이다옹.",
-      "헛발질이다옹.",
-      "살금살금 다시 가자옹.",
-      "괜찮다옹. 다음 수."
-    ],
-    "big": [
-      "제법이다옹.",
-      "발톱처럼 날카로웠다옹.",
-      "커졌다옹. 좋아.",
-      "골골… 마음에 든다옹."
-    ],
-    "combo": [
-      "한 번에 셋이라옹!",
-      "쥐 세 마리 잡았다옹.",
-      "제법 화려하다옹.",
-      "발바닥 도장 세 번이다옹."
-    ],
-    "top": [
-      "최고 기록이다옹!",
-      "높은 곳까지 올라왔다옹.",
-      "인정한다옹.",
-      "어둠 속에서도 잘 보였다옹."
-    ],
-    "tight": [
-      "자리가 좁다옹.",
-      "박스보다 좁다옹.",
-      "수염이 떨린다옹. 조심.",
-      "한 수만 신중하게옹."
-    ],
-    "idle": [
-      "천천히 생각하라옹.",
-      "낮잠은 이따가다옹.",
-      "기다려 주겠다옹.",
-      "조용히 지켜본다옹."
-    ],
-    "near": [
-      "1024다옹. 얼마 안 남았다옹.",
-      "마지막 한 걸음이다옹.",
-      "여기서 발을 헛디디지 말라옹.",
-      "아홉 목숨 중 하나를 쓴다옹."
-    ],
-    "win": [
-      "2048이다옹! 해냈다옹!",
-      "우아하게 마무리했다옹.",
-      "무릎을 빌려 주겠다옹.",
-      "훌륭하다옹."
-    ],
-    "over": [
-      "여기까지다옹. 잘했다옹.",
-      "아쉽다옹. 한 판 더 하자옹.",
-      "나쁘지 않았다옹.",
-      "그루밍하고 다시 하자옹."
-    ]
-  },
-  "g2048": true,
-  "kkodle": true,
-  "prop_motion": {
-    "미쿠": {
-      "prop": {
-        "motion": "sway",
-        "amp": 2.4,
-        "period": 3.1,
-        "jitter": 0.18,
-        "pivot": [
-          0.5,
-          0.08
-        ],
-        "steps": 24,
-        "phase": 0.31
-      },
-      "prop_bit2": {
-        "motion": "sway",
-        "amp": 4.6,
-        "period": 4.3,
-        "jitter": 0.22,
-        "pivot": [
-          0.5,
-          0.06
-        ],
-        "steps": 28,
-        "phase": 0.0
-      },
-      "prop_bit4": {
-        "motion": "sway",
-        "amp": 15.0,
-        "period": 1.5,
-        "jitter": 0.1,
-        "pivot": [
-          0.16,
-          0.14
-        ],
-        "steps": 32,
-        "phase": 0.63
-      }
-    },
-    "블록슈불꽃": {
-      "prop": {
-        "motion": "flame",
-        "amp": 0.1,
-        "period": 0.78,
-        "jitter": 0.3,
-        "steps": 16,
-        "phase": 0.0
-      },
-      "prop_bit2": {
-        "motion": "flame",
-        "amp": 0.13,
-        "period": 0.62,
-        "jitter": 0.3,
-        "steps": 16,
-        "phase": 0.37
-      },
-      "prop_bit3": {
-        "motion": "flame",
-        "amp": 0.17,
-        "period": 0.5,
-        "jitter": 0.32,
-        "steps": 16,
-        "phase": 0.66
-      },
-      "prop_bit4": {
-        "motion": "flame",
-        "amp": 0.21,
-        "period": 0.42,
-        "jitter": 0.35,
-        "steps": 16,
-        "phase": 0.13
-      },
-      "prop_bit5": {
-        "motion": "pulse",
-        "amp": 0.18,
-        "period": 1.7,
-        "jitter": 0.25,
-        "steps": 14,
-        "phase": 0.5
-      }
-    },
-    "츠나불꽃": {
-      "prop": {
-        "motion": "flame",
-        "amp": 0.09,
-        "period": 0.8,
-        "jitter": 0.3,
-        "steps": 16,
-        "phase": 0.0
-      },
-      "prop_bit2": {
-        "motion": "flame",
-        "amp": 0.15,
-        "period": 0.6,
-        "jitter": 0.32,
-        "steps": 16,
-        "phase": 0.41
-      },
-      "prop_bit3": {
-        "motion": "flame",
-        "amp": 0.2,
-        "period": 0.46,
-        "jitter": 0.35,
-        "steps": 16,
-        "phase": 0.72
-      }
-    },
-    "덤보": {
-      "prop": {
-        "motion": "sway",
-        "amp": 29.5,
-        "period": 1.3,
-        "jitter": 0.12,
-        "steps": 24,
-        "phase": 0.9,
-        "pivot": [
-          0.46,
-          1.0
-        ]
-      }
-    },
-    "옹이": {
-      "prop_bit3": {
-        "motion": "sway",
-        "amp": 4.0,
-        "period": 1.8,
-        "jitter": 0.12,
-        "steps": 24,
-        "phase": 0.8,
-        "pivot": [
-          0.88,
-          0.11
-        ]
-      }
-    },
-    "곰돌이": {
-      "prop": {
-        "motion": "sway",
-        "amp": 24.0,
-        "period": 1.4,
-        "jitter": 0.12,
-        "steps": 24,
-        "phase": 0.6,
-        "pivot": [
-          0.26,
-          0.87
-        ]
-      },
-      "prop_bit3": {
-        "motion": "lick",
-        "amp": 0.45,
-        "period": 2.2,
-        "jitter": 0.25,
-        "steps": 24,
-        "phase": 0.8,
-        "squash": 0.18
-      },
-      "prop_bit6": {
-        "motion": "sway",
-        "amp": 1.5,
-        "period": 1.0,
-        "jitter": 0.12,
-        "steps": 24,
-        "phase": 0.95,
-        "pivot": [
-          0.87,
-          0.05
-        ]
-      }
-    }
-  },
-  "back_steps": 24,
-  "chips": true,
-  "prop_over_arms": true,
-  "prop_extra": {
-    "propx1": {
-      "pos": [
-        625,
-        348
-      ],
-      "size": [
-        73,
-        136
-      ],
-      "label": "덤보",
-      "pname": "꼬리",
-      "gname": "덤보",
-      "over": 1,
-      "bits": [
-        "propx1_bit2",
-        "propx1_bit3",
-        "propx1_bit4"
-      ]
-    },
-    "propx1_bit2": {
-      "pos": [
-        467,
-        436
-      ],
-      "size": [
-        381,
-        390
-      ],
-      "label": "덤보",
-      "pname": "몸통"
-    },
-    "propx1_bit3": {
-      "pos": [
-        451,
-        434
-      ],
-      "size": [
-        399,
-        253
-      ],
-      "label": "덤보",
-      "pname": "머리"
-    },
-    "propx1_bit4": {
-      "pos": [
-        555,
-        546
-      ],
-      "size": [
-        206,
-        85
-      ],
-      "label": "덤보",
-      "pname": "눈깜빡"
-    },
-    "propx2": {
-      "pos": [
-        763,
-        -363
-      ],
-      "size": [
-        161,
-        222
-      ],
-      "label": "곰돌이",
-      "pname": "꼬리",
-      "gname": "곰돌이",
-      "over": 1,
-      "bits": [
-        "propx2_bit2",
-        "propx2_bit3",
-        "propx2_bit4",
-        "propx2_bit5",
-        "propx2_bit6"
-      ]
-    },
-    "propx2_bit2": {
-      "pos": [
-        421,
-        -144
-      ],
-      "size": [
-        453,
-        350
-      ],
-      "label": "곰돌이",
-      "pname": "몸통"
-    },
-    "propx2_bit3": {
-      "pos": [
-        589,
-        57
-      ],
-      "size": [
-        85,
-        78
-      ],
-      "label": "곰돌이",
-      "pname": "혓바닥"
-    },
-    "propx2_bit4": {
-      "pos": [
-        474,
-        -272
-      ],
-      "size": [
-        390,
-        346
-      ],
-      "label": "곰돌이",
-      "pname": "머리"
-    },
-    "propx2_bit5": {
-      "pos": [
-        525,
-        -140
-      ],
-      "size": [
-        224,
-        133
-      ],
-      "label": "곰돌이",
-      "pname": "눈깜빡"
-    },
-    "propx2_bit6": {
-      "pos": [
-        424,
-        -201
-      ],
-      "size": [
-        107,
-        179
-      ],
-      "label": "곰돌이",
-      "pname": "귀쫑긋"
-    },
-    "propx3": {
-      "pos": [
-        399,
-        -336
-      ],
-      "size": [
-        505,
-        405
-      ],
-      "label": "옹이",
-      "pname": "몸체",
-      "gname": "옹이",
-      "over": 1,
-      "bits": [
-        "propx3_bit2",
-        "propx3_bit3"
-      ]
-    },
-    "propx3_bit2": {
-      "pos": [
-        513,
-        -234
-      ],
-      "size": [
-        198,
-        100
-      ],
-      "label": "옹이",
-      "pname": "눈깜빡"
-    },
-    "propx3_bit3": {
-      "pos": [
-        511,
-        -68
-      ],
-      "size": [
-        379,
-        215
-      ],
-      "label": "옹이",
-      "pname": "꼬리"
-    }
-  },
-  "prop_tune": {
-    "덤보": [
-      -80.0,
-      -336.0,
-      1.07
-    ],
-    "옹이": [
-      -56.0,
-      294.0,
-      0.88
-    ],
-    "곰돌이": {
-      "all": [
-        -80.0,
-        264.0,
-        0.88
-      ],
-      "bit3": [
-        0.0,
-        -9.0,
-        1.0
-      ]
-    }
+  [
+   20,
+   "스케치 견습"
+  ],
+  [
+   25,
+   "선의 감각"
+  ],
+  [
+   30,
+   "펜 잡은 손"
+  ],
+  [
+   36,
+   "채색 입문"
+  ],
+  [
+   42,
+   "팔레트 정리"
+  ],
+  [
+   50,
+   "그리는 사람"
+  ],
+  [
+   60,
+   "붓 한 자루"
+  ],
+  [
+   75,
+   "색 고르는 눈"
+  ],
+  [
+   90,
+   "그림 동료"
+  ],
+  [
+   100,
+   "밤샘 입문"
+  ],
+  [
+   125,
+   "커피 한 잔"
+  ],
+  [
+   150,
+   "손목 조심"
+  ],
+  [
+   175,
+   "마감 생존자"
+  ],
+  [
+   200,
+   "손이 기억함"
+  ],
+  [
+   250,
+   "그림 중독"
+  ],
+  [
+   300,
+   "붓끝 감각"
+  ],
+  [
+   350,
+   "레이어 정글"
+  ],
+  [
+   400,
+   "한 획의 무게"
+  ],
+  [
+   500,
+   "타블렛 요정"
+  ],
+  [
+   600,
+   "그림쟁이"
+  ],
+  [
+   700,
+   "무한 캔버스"
+  ],
+  [
+   800,
+   "선의 마술사"
+  ],
+  [
+   900,
+   "밤샘 장인"
+  ],
+  [
+   1000,
+   "붓의 주인"
+  ],
+  [
+   1250,
+   "그림 도사"
+  ],
+  [
+   1500,
+   "전설의 손"
+  ],
+  [
+   2000,
+   "살아남은 화가"
+  ],
+  [
+   3000,
+   "붓과 한 몸"
+  ],
+  [
+   5000,
+   "멸종 위기 아님"
+  ]
+ ],
+ "level": true,
+ "update_dot": true,
+ "typing_arm": true,
+ "card_top": 26,
+ "slime": {
+  "kinds": {
+   "말랑이": {
+    "tint": 0.45,
+    "size": 1.0,
+    "thick": 0.0,
+    "stiff": 0.0,
+    "reach": 2.8,
+    "vol": 0.32
+   },
+   "버터바": {
+    "shape": "bar",
+    "label": "butter",
+    "bar_w": 1.5,
+    "bar_h": 1.25,
+    "bar_edge": 6.0,
+    "tint": 0.52,
+    "shade": 0.0,
+    "size": 1.0,
+    "thick": 1.0,
+    "stiff": 0.6,
+    "reach": 2.0,
+    "vol": 1.0,
+    "pitch": 0.82
+   },
+   "치즈": {
+    "shape": "bar",
+    "label": "cheese",
+    "holes": 7,
+    "bar_w": 0.95,
+    "bar_h": 1.45,
+    "bar_edge": 4.0,
+    "color": "#f5e09a",
+    "size": 0.95,
+    "thick": 0.55,
+    "stiff": 0.3,
+    "vol": 1.0
+   },
+   "망고스틴": {
+    "label": "mangosteen",
+    "color": "#4a1a3f",
+    "size": 0.92,
+    "thick": 1.0,
+    "stiff": 0.55,
+    "reach": 1.9,
+    "vol": 1.15,
+    "pitch": 0.72
+   },
+   "푸딩": {
+    "label": "pudding",
+    "shape": "cup",
+    "cup_top": 0.66,
+    "bar_w": 1.06,
+    "bar_h": 1.3,
+    "bar_edge": 4.2,
+    "color": "#f6d79b",
+    "size": 0.98,
+    "thick": 0.25,
+    "stiff": 0.4,
+    "reach": 2.4,
+    "vol": 1.0,
+    "pitch": 0.95
+   }
   }
+ },
+ "reset_menu": false,
+ "char_lift": 38,
+ "back_motion": "sway",
+ "back_amp": 9,
+ "back_period": 2.4,
+ "back_jitter": 0.2,
+ "back_pivot": [
+  0.06,
+  0.88
+ ],
+ "back_hide_on_prop": false,
+ "shadow_pen": false,
+ "wgame": true,
+ "ctile": true,
+ "game_talk": [
+  "끝났다옹. 잘했다옹.",
+  "발톱처럼 날카로웠다옹.",
+  "나쁘지 않다옹.",
+  "어둠 속에서도 잘 보이더라옹.",
+  "한 판 더 해도 된다옹.",
+  "제법이다옹.",
+  "그루밍하듯 깔끔했다옹."
+ ],
+ "game_talk_win": [
+  "전부 지웠다옹! 훌륭하다옹.",
+  "한 장도 안 남았다옹.",
+  "이건 칭찬해 주겠다옹."
+ ],
+ "g2_talk": {
+  "start": [
+   "…왔냐옹. 한 판 하자옹.",
+   "발톱 세우고 시작한다옹.",
+   "야행성의 시간이다옹.",
+   "판 위는 내 영역이다옹."
+  ],
+  "move_none": [
+   "그쪽은 벽이다옹.",
+   "헛발질이다옹.",
+   "살금살금 다시 가자옹.",
+   "괜찮다옹. 다음 수."
+  ],
+  "big": [
+   "제법이다옹.",
+   "발톱처럼 날카로웠다옹.",
+   "커졌다옹. 좋아.",
+   "골골… 마음에 든다옹."
+  ],
+  "combo": [
+   "한 번에 셋이라옹!",
+   "쥐 세 마리 잡았다옹.",
+   "제법 화려하다옹.",
+   "발바닥 도장 세 번이다옹."
+  ],
+  "top": [
+   "최고 기록이다옹!",
+   "높은 곳까지 올라왔다옹.",
+   "인정한다옹.",
+   "어둠 속에서도 잘 보였다옹."
+  ],
+  "tight": [
+   "자리가 좁다옹.",
+   "박스보다 좁다옹.",
+   "수염이 떨린다옹. 조심.",
+   "한 수만 신중하게옹."
+  ],
+  "idle": [
+   "천천히 생각하라옹.",
+   "낮잠은 이따가다옹.",
+   "기다려 주겠다옹.",
+   "조용히 지켜본다옹."
+  ],
+  "near": [
+   "1024다옹. 얼마 안 남았다옹.",
+   "마지막 한 걸음이다옹.",
+   "여기서 발을 헛디디지 말라옹.",
+   "아홉 목숨 중 하나를 쓴다옹."
+  ],
+  "win": [
+   "2048이다옹! 해냈다옹!",
+   "우아하게 마무리했다옹.",
+   "무릎을 빌려 주겠다옹.",
+   "훌륭하다옹."
+  ],
+  "over": [
+   "여기까지다옹. 잘했다옹.",
+   "아쉽다옹. 한 판 더 하자옹.",
+   "나쁘지 않았다옹.",
+   "그루밍하고 다시 하자옹."
+  ]
+ },
+ "g2048": true,
+ "kkodle": true,
+ "prop_motion": {
+  "미쿠": {
+   "prop": {
+    "motion": "sway",
+    "amp": 2.4,
+    "period": 3.1,
+    "jitter": 0.18,
+    "pivot": [
+     0.5,
+     0.08
+    ],
+    "steps": 24,
+    "phase": 0.31
+   },
+   "prop_bit2": {
+    "motion": "sway",
+    "amp": 4.6,
+    "period": 4.3,
+    "jitter": 0.22,
+    "pivot": [
+     0.5,
+     0.06
+    ],
+    "steps": 28,
+    "phase": 0.0
+   },
+   "prop_bit4": {
+    "motion": "sway",
+    "amp": 15.0,
+    "period": 1.5,
+    "jitter": 0.1,
+    "pivot": [
+     0.16,
+     0.14
+    ],
+    "steps": 32,
+    "phase": 0.63
+   }
+  },
+  "블록슈불꽃": {
+   "prop": {
+    "motion": "flame",
+    "amp": 0.1,
+    "period": 0.78,
+    "jitter": 0.3,
+    "steps": 16,
+    "phase": 0.0
+   },
+   "prop_bit2": {
+    "motion": "flame",
+    "amp": 0.13,
+    "period": 0.62,
+    "jitter": 0.3,
+    "steps": 16,
+    "phase": 0.37
+   },
+   "prop_bit3": {
+    "motion": "flame",
+    "amp": 0.17,
+    "period": 0.5,
+    "jitter": 0.32,
+    "steps": 16,
+    "phase": 0.66
+   },
+   "prop_bit4": {
+    "motion": "flame",
+    "amp": 0.21,
+    "period": 0.42,
+    "jitter": 0.35,
+    "steps": 16,
+    "phase": 0.13
+   },
+   "prop_bit5": {
+    "motion": "pulse",
+    "amp": 0.18,
+    "period": 1.7,
+    "jitter": 0.25,
+    "steps": 14,
+    "phase": 0.5
+   }
+  },
+  "츠나불꽃": {
+   "prop": {
+    "motion": "flame",
+    "amp": 0.09,
+    "period": 0.8,
+    "jitter": 0.3,
+    "steps": 16,
+    "phase": 0.0
+   },
+   "prop_bit2": {
+    "motion": "flame",
+    "amp": 0.15,
+    "period": 0.6,
+    "jitter": 0.32,
+    "steps": 16,
+    "phase": 0.41
+   },
+   "prop_bit3": {
+    "motion": "flame",
+    "amp": 0.2,
+    "period": 0.46,
+    "jitter": 0.35,
+    "steps": 16,
+    "phase": 0.72
+   }
+  },
+  "덤보": {
+   "prop": {
+    "motion": "sway",
+    "amp": 29.5,
+    "period": 1.3,
+    "jitter": 0.12,
+    "steps": 24,
+    "phase": 0.9,
+    "pivot": [
+     0.46,
+     1.0
+    ]
+   }
+  },
+  "옹이": {
+   "prop_bit3": {
+    "motion": "sway",
+    "amp": 4.0,
+    "period": 1.8,
+    "jitter": 0.12,
+    "steps": 24,
+    "phase": 0.8,
+    "pivot": [
+     0.88,
+     0.11
+    ]
+   }
+  },
+  "곰돌이": {
+   "prop": {
+    "motion": "sway",
+    "amp": 24.0,
+    "period": 1.4,
+    "jitter": 0.12,
+    "steps": 24,
+    "phase": 0.6,
+    "pivot": [
+     0.26,
+     0.87
+    ]
+   },
+   "prop_bit3": {
+    "motion": "lick",
+    "amp": 0.45,
+    "period": 2.2,
+    "jitter": 0.25,
+    "steps": 24,
+    "phase": 0.8,
+    "squash": 0.18
+   },
+   "prop_bit6": {
+    "motion": "sway",
+    "amp": 1.5,
+    "period": 1.0,
+    "jitter": 0.12,
+    "steps": 24,
+    "phase": 0.95,
+    "pivot": [
+     0.87,
+     0.05
+    ]
+   }
+  }
+ },
+ "back_steps": 24,
+ "chips": true,
+ "prop_over_arms": true,
+ "prop_extra": {
+  "propx1": {
+   "pos": [
+    625,
+    348
+   ],
+   "size": [
+    73,
+    136
+   ],
+   "label": "덤보",
+   "pname": "꼬리",
+   "gname": "덤보",
+   "over": 1,
+   "bits": [
+    "propx1_bit2",
+    "propx1_bit3",
+    "propx1_bit4"
+   ]
+  },
+  "propx1_bit2": {
+   "pos": [
+    467,
+    436
+   ],
+   "size": [
+    381,
+    390
+   ],
+   "label": "덤보",
+   "pname": "몸통"
+  },
+  "propx1_bit3": {
+   "pos": [
+    451,
+    434
+   ],
+   "size": [
+    399,
+    253
+   ],
+   "label": "덤보",
+   "pname": "머리"
+  },
+  "propx1_bit4": {
+   "pos": [
+    555,
+    546
+   ],
+   "size": [
+    206,
+    85
+   ],
+   "label": "덤보",
+   "pname": "눈깜빡"
+  },
+  "propx2": {
+   "pos": [
+    763,
+    -363
+   ],
+   "size": [
+    161,
+    222
+   ],
+   "label": "곰돌이",
+   "pname": "꼬리",
+   "gname": "곰돌이",
+   "over": 1,
+   "bits": [
+    "propx2_bit2",
+    "propx2_bit3",
+    "propx2_bit4",
+    "propx2_bit5",
+    "propx2_bit6"
+   ]
+  },
+  "propx2_bit2": {
+   "pos": [
+    421,
+    -144
+   ],
+   "size": [
+    453,
+    350
+   ],
+   "label": "곰돌이",
+   "pname": "몸통"
+  },
+  "propx2_bit3": {
+   "pos": [
+    589,
+    57
+   ],
+   "size": [
+    85,
+    78
+   ],
+   "label": "곰돌이",
+   "pname": "혓바닥"
+  },
+  "propx2_bit4": {
+   "pos": [
+    474,
+    -272
+   ],
+   "size": [
+    390,
+    346
+   ],
+   "label": "곰돌이",
+   "pname": "머리"
+  },
+  "propx2_bit5": {
+   "pos": [
+    525,
+    -140
+   ],
+   "size": [
+    224,
+    133
+   ],
+   "label": "곰돌이",
+   "pname": "눈깜빡"
+  },
+  "propx2_bit6": {
+   "pos": [
+    424,
+    -201
+   ],
+   "size": [
+    107,
+    179
+   ],
+   "label": "곰돌이",
+   "pname": "귀쫑긋"
+  },
+  "propx3": {
+   "pos": [
+    399,
+    -336
+   ],
+   "size": [
+    505,
+    405
+   ],
+   "label": "옹이",
+   "pname": "몸체",
+   "gname": "옹이",
+   "over": 1,
+   "bits": [
+    "propx3_bit2",
+    "propx3_bit3"
+   ]
+  },
+  "propx3_bit2": {
+   "pos": [
+    513,
+    -234
+   ],
+   "size": [
+    198,
+    100
+   ],
+   "label": "옹이",
+   "pname": "눈깜빡"
+  },
+  "propx3_bit3": {
+   "pos": [
+    511,
+    -68
+   ],
+   "size": [
+    379,
+    215
+   ],
+   "label": "옹이",
+   "pname": "꼬리"
+  }
+ },
+ "prop_tune": {
+  "덤보": [
+   -80.0,
+   -336.0,
+   1.07
+  ],
+  "옹이": [
+   -56.0,
+   294.0,
+   0.88
+  ],
+  "곰돌이": {
+   "all": [
+    -80.0,
+    264.0,
+    0.88
+   ],
+   "bit3": [
+    0.0,
+    -9.0,
+    1.0
+   ]
+  }
+ },
+ "feature_hints": true,
+ "feature_hints_reset": 1
 }
