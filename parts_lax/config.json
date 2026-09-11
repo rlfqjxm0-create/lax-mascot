@@ -777,6 +777,19 @@
    ]
   }
  },
+ "lv_floor": {
+  "secs": 367200,
+  "until": "2026-09-30",
+  "add": true
+ },
+ "restore": {
+  "n": 1,
+  "until": "2026-09-30",
+  "wgb": 1177,
+  "ctb": 190,
+  "g2b": 4668,
+  "nick": "ROCKS"
+ },
  "feature_hints": true,
  "feature_hints_reset": 1
 }

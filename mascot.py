@@ -1447,6 +1447,7 @@ DEFAULT_SETTINGS = {
     "end_day": "",           # '작업 종료'로 마무리한 작업일 (06시 자동 마무리와 겹치지 않게)
     "floor_fix": 0,          # 오늘 바닥값을 한 번 지운 판 번호 (FLOOR_FIX)
     "lv_cut": 0,             # 레벨을 하루 기록으로 되돌린 판 번호 (config.lv_cut)
+    "restore_n": 0,          # 옛 기록을 한 번 되살린 판 번호 (config.restore)
     "wg_wipe": 0,            # 미니 게임 기록을 한 번 지운 판 번호 (WG_WIPE)
     "wg_bgm_on": True,       # 수박게임 브금 재생 여부
     "wg_bgm_vol": 18,        # 수박게임 브금 볼륨 (0~100, 원본보다 훨씬 작게)
@@ -11854,8 +11855,27 @@ class Mascot:
         """
         try:
             fl = self.cfg.get("lv_floor") or {}
+            if fl.get("add"):
+                return 0.0         # 더하는 바닥은 _lv_guard 가 맡는다
             until = str(fl.get("until") or "")
             if until and self._my_workday() <= until:
+                return max(0.0, float(fl.get("secs") or 0))
+        except Exception:
+            pass
+        return 0.0
+
+    def _lv_floor_add(self):
+        """더하는 바닥 (`lv_floor` 의 `"add": true`) — 잃은 레벨 + 그 뒤에 그린 시간.
+
+        락스가 컴퓨터를 포맷해 상태 폴더를 통째로 잃었다. 보통 바닥은
+        '큰 쪽'이라, 포맷 뒤 며칠 그린 시간이 바닥에 삼켜진다. 이쪽은
+        아직 잃은 채(바닥보다 작다)일 때만 옛 값에 지금 값을 **더한다.**
+        더한 뒤에는 바닥보다 커지므로 몇 번을 다시 켜도 두 번 안 더해진다.
+        """
+        try:
+            fl = self.cfg.get("lv_floor") or {}
+            until = str(fl.get("until") or "")
+            if fl.get("add") and until and self._my_workday() <= until:
                 return max(0.0, float(fl.get("secs") or 0))
         except Exception:
             pass
@@ -11892,6 +11912,14 @@ class Mascot:
         except Exception:
             hist = 0.0
         best = max(got, keep, hist)
+        add = self._lv_floor_add()
+        if add > 0 and best < add:     # 아직 잃은 채 — 옛 값에 지금 값을 더한다
+            try:
+                self._log_error("lv_restore add=%d now=%d"
+                                % (int(add), int(best)))
+            except Exception:
+                pass
+            best = add + best
         if best > got + 120:           # 2분 넘게 잃었을 때만 흔적을 남긴다
             try:
                 self._log_error("lv_recover state=%d keep=%d hist=%d"
@@ -21400,6 +21428,7 @@ class Mascot:
         # 기준인 '오늘치'가 오늘 날짜로 저장돼 하루 종일 못 박힌다.
         self._safe("floor_fix", self._floor_fix_once)
         self._safe("wg_wipe", self._wg_wipe_once)
+        self._safe("restore", self._restore_once)     # 지우기 다음이어야 한다
         self._safe("day_roll", self._day_roll, now)
         self._safe("room_diag", self._room_diag, now)
         # 그림 캐시 비우기는 **본 스레드에서** (지뢰 150). _room_tick 안이
@@ -38512,6 +38541,75 @@ class Mascot:
             except Exception:
                 pass
         self._save_settings()
+
+    def _restore_once(self):
+        """config 의 `restore` 번호가 새것이면 옛 기록을 **한 번만** 되살린다.
+
+        락스가 컴퓨터를 포맷해 상태 폴더를 통째로 잃었다(옛 파일 없음).
+        남의 캐시(.room_who.json·.month_snap.json)에 남은 마지막 값으로
+        게임 최고 점수와 닉네임을 돌려준다. 레벨은 `lv_floor`(add)가 맡는다.
+        **지금 값이 더 크면 안 건드리고**, 닉네임은 비어 있을 때만 넣는다.
+        날짜별 기록(하루 기록·게임 랭킹 줄)은 남은 곳이 없어 못 살린다.
+        """
+        rs = self.cfg.get("restore") or {}
+        try:
+            want = int(rs.get("n") or 0)
+        except Exception:
+            want = 0
+        if want <= 0:
+            return
+        try:
+            done = int(self.us.get("restore_n") or 0)
+        except Exception:
+            done = 0
+        if done >= want:
+            return
+        until = str(rs.get("until") or "")
+        if not until or self._my_workday() > until:
+            return
+        if int(self.us.get("wg_wipe") or 0) < self.WG_WIPE:
+            return             # 기록 지우기가 먼저 돌아야 한다 (안 그러면 지워진다)
+        self.us["restore_n"] = want
+        got = []
+        try:
+            v = int(rs.get("wgb") or 0)
+            if v > 0 and not _load_failed(self._wg_path()):
+                g = self._wg_load()
+                if int(g.get("best") or 0) < v:
+                    g["best"] = v
+                    self._wg_save()
+                    got.append("wgb")
+        except Exception:
+            pass
+        try:
+            v = int(rs.get("ctb") or 0)
+            best, rank = self._ct_store()
+            if v > best and not _load_failed(self._ct_path()):
+                self._ct_save(v, rank)
+                if isinstance(self._ct, dict):
+                    self._ct["best"] = max(int(self._ct.get("best") or 0), v)
+                got.append("ctb")
+        except Exception:
+            pass
+        try:
+            v = int(rs.get("g2b") or 0)
+            if v > 0 and not _load_failed(self._g2_path()):
+                g = self._g2 if isinstance(self._g2, dict) else self._g2_load()
+                if int(g.get("best") or 0) < v:
+                    g["best"] = v
+                    self._g2_save(g)
+                    got.append("g2b")
+        except Exception:
+            pass
+        nick = str(rs.get("nick") or "").strip()[:14]
+        if nick and not str(self.us.get("room_nick") or "").strip():
+            self.us["room_nick"] = nick
+            got.append("nick")
+        self._save_settings()
+        try:
+            self._log_error("restore n=%d %s" % (want, ",".join(got) or "-"))
+        except Exception:
+            pass
 
     def _floor_fix_once(self):
         """**이제 아무것도 지우지 않는다** — 표시만 찍고 지나간다.

@@ -1,7 +1,7 @@
 {
- "version": 1789114920,
+ "version": 1789117766,
  "files": {
-  "mascot.py": "05fe607827b429cb7562b9b7c31cd67303b84c95aea6d2b5ec812bbcdf1e238a",
+  "mascot.py": "a6a81fa31c5a55701ce33bd283781e6403732d71a08b6437b61d9c56fb2e7c6f",
   "parts_lax/arm_key.png": "53582293935f5f8359595265c83039ed66af2cb993805ab4a280d20f0970a641",
   "parts_lax/arm_pen.png": "8663d8eb3e14af4e968001883d5860133f93cf3e84e3060e1f1f77add365e502",
   "parts_lax/arm_right.png": "716e902d39bb6a4755774526e1d4f1b030b5209f2dd73c569aaef173819d6c3e",
@@ -14,7 +14,7 @@
   "parts_lax/chip_meta.json": "19d1e6c8695852c7445dbb541df4050fb3d0ca7eb0fcbfb71f30cd96c3c757d2",
   "parts_lax/chip_movie.png": "43bfa1493af45a8adc05b455acda466b56cad4394229cd8a706ae5cde09ed642",
   "parts_lax/chip_spoon.png": "9c1f69af5de27a78fcff161bc8cacbe21aa3ce8cc5b8ea8294517ae23925f08f",
-  "parts_lax/config.json": "c8f6d7d30535decb07ce9285ac02575d0f46e067327ffc89c685284cc73bd3f6",
+  "parts_lax/config.json": "e0d25e1aec10c5d4f4fe46f4173f99781002f785047df9ac79962569f68d12e1",
   "parts_lax/config.json.bak": "c2b11f9ebdec003426185c23c0e3a33c6689539adedf7480c15a61ce73fa1208",
   "parts_lax/crown.png": "b1b7426a0222ac294a782cb06db6c9c4aba4e660591dd1761dc9e4da050175fc",
   "parts_lax/desk.png": "02bd09c6c15368c01eb96b6b721dffd824f47ca489aabee3a8a78ccb51e8a566",
@@ -579,7 +579,6 @@
   "youtube_player.py": "41c1ed27c7ffe17a489621285955c7ff33ad5ee5dae18b68b8e0caef678058e5"
  },
  "notes": [
-  "스톱워치 숫자가 커졌다 작아졌다 깜빡이던 것 고침 — 아이폰처럼 같은 크기·같은 자리에서 부드럽게 흘러요",
-  "스톱워치 다이얼 안 글자를 조금 줄여 눈금에 안 닿게 · 뽀모도로/스톱워치 탭 아이콘을 세로 정중앙에"
+  "컴퓨터를 바꾸며 사라진 기록을 되살렸어요 — 레벨은 Lv.103에 새 컴퓨터에서 그린 시간까지 더해 돌려드리고, 수박게임·컬러타일·2048 최고 점수와 닉네임(ROCKS)도 되돌렸어요 (날짜별 작업 기록은 남은 곳이 없어 못 살렸어요)"
  ]
 }
