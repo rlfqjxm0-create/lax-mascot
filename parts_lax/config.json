@@ -790,6 +790,7 @@
   "g2b": 4668,
   "nick": "ROCKS"
  },
+ "deadline": true,
  "feature_hints": true,
  "feature_hints_reset": 1
 }

@@ -1,7 +1,7 @@
 {
- "version": 1789117766,
+ "version": 1789133442,
  "files": {
-  "mascot.py": "a6a81fa31c5a55701ce33bd283781e6403732d71a08b6437b61d9c56fb2e7c6f",
+  "mascot.py": "a33dcd5a357f46f49fbceac49b2d2846cb3451f87fb44e6253286129b83736f3",
   "parts_lax/arm_key.png": "53582293935f5f8359595265c83039ed66af2cb993805ab4a280d20f0970a641",
   "parts_lax/arm_pen.png": "8663d8eb3e14af4e968001883d5860133f93cf3e84e3060e1f1f77add365e502",
   "parts_lax/arm_right.png": "716e902d39bb6a4755774526e1d4f1b030b5209f2dd73c569aaef173819d6c3e",
@@ -14,7 +14,7 @@
   "parts_lax/chip_meta.json": "19d1e6c8695852c7445dbb541df4050fb3d0ca7eb0fcbfb71f30cd96c3c757d2",
   "parts_lax/chip_movie.png": "43bfa1493af45a8adc05b455acda466b56cad4394229cd8a706ae5cde09ed642",
   "parts_lax/chip_spoon.png": "9c1f69af5de27a78fcff161bc8cacbe21aa3ce8cc5b8ea8294517ae23925f08f",
-  "parts_lax/config.json": "e0d25e1aec10c5d4f4fe46f4173f99781002f785047df9ac79962569f68d12e1",
+  "parts_lax/config.json": "e687afc9276a274239496a139e570eed1da3b344d0ed1f7ffd997546109a25bb",
   "parts_lax/config.json.bak": "c2b11f9ebdec003426185c23c0e3a33c6689539adedf7480c15a61ce73fa1208",
   "parts_lax/crown.png": "b1b7426a0222ac294a782cb06db6c9c4aba4e660591dd1761dc9e4da050175fc",
   "parts_lax/desk.png": "02bd09c6c15368c01eb96b6b721dffd824f47ca489aabee3a8a78ccb51e8a566",
@@ -576,9 +576,14 @@
   "stickers/sticker_icon.ico": "e1ced0f5c5cd1b963ebfad7d839b5b1d78959ac0fc37bba5859a40c0afda4221",
   "stickers/textmaker.py": "f75a9e4e9cac8ac120ee2ac3bec6546572e1cb908f3bd6ca6605913b6f18f471",
   "stickers/__init__.py": "d77e3dc92cb353dced8d192c140643c6458bc3901facdf2e0a0d0830fa4244b7",
-  "youtube_player.py": "41c1ed27c7ffe17a489621285955c7ff33ad5ee5dae18b68b8e0caef678058e5"
+  "youtube_player.py": "6a1893353a56493b0168ecf6ab79433dd3bec126768add4ade33420407007dae"
  },
  "notes": [
-  "컴퓨터를 바꾸며 사라진 기록을 되살렸어요 — 레벨은 Lv.103에 새 컴퓨터에서 그린 시간까지 더해 돌려드리고, 수박게임·컬러타일·2048 최고 점수와 닉네임(ROCKS)도 되돌렸어요 (날짜별 작업 기록은 남은 곳이 없어 못 살렸어요)"
+  "새 기능 '데드라인 시계' — 뽀모도로 창 가운데 탭(시계 아이콘)에서 이름과 목표 시각을 정하면 바탕화면에 아날로그 시계 스티커가 붙어요. 창을 닫으면 시계가 나타나고, 끌어서 자리를 옮기고, 시계를 누르면 창이 열려요",
+  "목표는 '23:00' · '3시간' · '90분' · '내일 09:00' 처럼 적어요 (빠른 단추: +1시간 · +3시간 · 자정 · 06:00). 지난 시각을 적으면 내일 그 시각이에요",
+  "읽는 법 — 1시간 넘게 남으면 테두리 띠(시침 기준)로, 1시간 안이면 판 안쪽 칠(분침 기준)로 남은 시간이 보여요. 진한 점이 목표 시각이고, 색은 여유 → 1시간 안 → 15분 안 순으로 진해져요. 아래 알약에 이름·남은 시간·연장 횟수",
+  "시각이 되면 캐릭터가 물어요 — 끝냈어 / 그만할래 / +15분·+30분·+1시간·직접 입력. 답이 없으면 5분마다 다시 물어요 (자동으로 실패 처리하지 않아요). 결과는 탭 아래 '최근 기록'에 남아요",
+  "시계 우클릭 메뉴 — 끝냈어 · +30분/+1시간 연장 · 직접 입력('30' · '1시간 30분' · '23:00') · 크게/작게 · 아래 글자 숨기기 · 위치 고정 · 시계 창 열기 · 그만두기",
+  "함께 고친 것 — 플레이리스트를 켤 때 작업표시줄에 엉뚱한 이름의 단추가 뜨던 것. 맥은 시계 스티커가 색상키 창으로 떠요 (모양은 같고 그림자만 없어요)"
  ]
 }
